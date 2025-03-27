@@ -17,7 +17,7 @@ const nunito = Nunito({
 });
 
 export const metadata = {
-  title: "Animatronix",
+  title: "Animatronix | Portfolio",
   description: "Portfolio d'animatronix",
   icons: {
     icon: {

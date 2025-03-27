@@ -35,10 +35,10 @@ export default function About() {
           <p>
             Je suis un jeune d&#233;veloppeur web frontend et backend fran&#231;ais poursuivant
             encore ses &#233;tudes, cela fait mainenant 5 ans que je fait du 
-            d&#233;veloppement web et de la mise en place de serveurs web sous 
-            debian. J&#8217;ai d&#8217;abord commenc&#233; a developper en HTML CSS pur et 
+            d&#233;veloppement web et de la mise en place de serveurs web Linux.  
+            J&#8217;ai d&#8217;abord commenc&#233; a developper en HTML CSS pur et 
             PHP comme backend avant de m&#8217;interesser &#224; node.js et next.js 
-            me consuisant &#224; l&#8217;utilisation de React comme frontend depuis 1 an.
+            me conduisant &#224; l&#8217;utilisation de React comme frontend depuis 1 an environ. 
           </p>
 
           <h3>Mes Compétences</h3>

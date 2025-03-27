@@ -1,4 +1,5 @@
 import styles from '@/styles/creations.module.css'
+import Image from 'next/image'
 
 const CREATIONS = [
     { src: "/creations/cerilim.png", alt: "Page web de Cerilim", tech: "HTML, CSS, Javascript" },
@@ -13,7 +14,14 @@ export default function Creations() {
       <div className={styles.grid}>
         {CREATIONS.map((project, index) => (
           <div key={index} className={styles.card}>
-            <img src={project.src} alt={project.alt} />
+            <Image
+              src={project.src}
+              alt={project.alt}
+              width={300}
+              height={200}
+              priority={index === 0}
+              style={{ objectFit: 'cover' }}
+            />
             <h2>{project.alt}</h2>
             <p>Languages: {project.tech}</p>
           </div>

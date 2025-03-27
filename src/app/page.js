@@ -67,7 +67,7 @@ export default function Home() {
               </div>
             ))}
           </div>
-          <a className={styles.listen} href="https://youtube.com/playlist?list=PL1iSP7-9GQvLkdE8kFOwtOUK7BkMsSLMg&si=lH-YxLBc7Wcx5RgM" target="_blank" rel="noopener noreferrer">Ecouter</a>
+          <a className={styles.listen} href="https://youtube.com/paylist?list=PL1iSP7-9GQvLkdE8kFOwtOUK7BkMsSLMg&si=lH-YxLBc7Wcx5RgM" target="_blank" rel="noopener noreferrer">Ecouter</a>
         </div>
 
         <div className={styles.map}>

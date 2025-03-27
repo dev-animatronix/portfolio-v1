@@ -22,7 +22,7 @@ export default function Navbar() {
           alt="Logo"
           className={styles.logo}
         />
-        <h1>Animatronix</h1>
+        <Link className={styles.title} href="/">Animatronix</Link>
       </div>
       <button 
         className={`${styles.menuButton} ${isOpen ? styles.open : ''}`} 
